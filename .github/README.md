@@ -23,7 +23,7 @@ A 2D Arcade Game Using SDL2
 
 You can see the demo here
 
-![A demo run of the game](https://github.com/c0ff33sl4y3r/arcade-adventure/assets/62643594/78a47b08-a34d-4570-b24f-c024814965c5)
+https://github.com/c0ff33sl4y3r/arcade-adventure/assets/62643594/78a47b08-a34d-4570-b24f-c024814965c5
 
 <p align="center">A demo run of the game</p>
 
