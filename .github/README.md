@@ -90,29 +90,29 @@ Arcade Adventure is released under the [MIT License](LICENSE.md). This means you
 
 ## 9. Reference
 
-Assets:
+Images:
 
-* Images:
+* [Treasure Hunters](https://pixelfrog-assets.itch.io/treasure-hunters)
 
-[Treasure Hunters](https://pixelfrog-assets.itch.io/treasure-hunters)
+* [Minimal Dungeon](https://trevor-pupkin.itch.io/minimal-dungeon)
 
-[Minimal Dungeon](https://trevor-pupkin.itch.io/minimal-dungeon)
+* [Pixel Art Top Down](https://cainos.itch.io/pixel-art-top-down-basic)
 
-[Pixel Art Top Down](https://cainos.itch.io/pixel-art-top-down-basic)
+* [Characters](https://pixelfight.itch.io/birdcat)
 
-[Characters](https://pixelfight.itch.io/birdcat)
+* [UI](https://bdragon1727.itch.io/basic-pixel-health-bar-and-scroll-bar)
 
-[UI](https://bdragon1727.itch.io/basic-pixel-health-bar-and-scroll-bar)
+Fonts:
+ 
+* [Monogram](https://datagoblin.itch.io/monogram)
 
-* Fonts:
-[Monogram](https://datagoblin.itch.io/monogram)
+Sounds & Music:
 
-* Sounds & Music:
+* [Minecraft](https://minecraft.wiki)
 
-[Minecraft](https://minecraft.wiki)
+Open Source Codes:
 
-* Open Source Codes:
+* SDL2 Libraries: [SDL2](https://github.com/libsdl-org)
 
-SDL2 Libraries: [SDL2](https://github.com/libsdl-org)
+* C++ nlohmann/json: [json](https://github.com/nlohmann/json)
 
-C++ nlohmann/json: [json](https://github.com/nlohmann/json)
