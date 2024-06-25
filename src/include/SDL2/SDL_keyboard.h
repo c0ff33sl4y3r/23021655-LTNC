@@ -1,6 +1,6 @@
 /*
   Simple DirectMedia Layer
-  Copyright (C) 1997-2023 Sam Lantinga <slouken@libsdl.org>
+  Copyright (C) 1997-2024 Sam Lantinga <slouken@libsdl.org>
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -28,12 +28,12 @@
 #ifndef SDL_keyboard_h_
 #define SDL_keyboard_h_
 
-#include "SDL_stdinc.h"
-#include "SDL_error.h"
-#include "SDL_keycode.h"
-#include "SDL_video.h"
+#include <SDL2/SDL_stdinc.h>
+#include <SDL2/SDL_error.h>
+#include <SDL2/SDL_keycode.h>
+#include <SDL2/SDL_video.h>
 
-#include "begin_code.h"
+#include <SDL2/begin_code.h>
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
 extern "C" {
@@ -298,8 +298,10 @@ extern DECLSPEC void SDLCALL SDL_ClearComposition(void);
 extern DECLSPEC SDL_bool SDLCALL SDL_IsTextInputShown(void);
 
 /**
- * Set the rectangle used to type Unicode text inputs.
- *
+ * Set the rectangle used to type Unicode text inputs. Native input methods
+ * will place a window with word suggestions near it, without covering the
+ * text being inputted.
+ * 
  * To start text input in a given location, this function is intended to be
  * called before SDL_StartTextInput, although some platforms support moving
  * the rectangle even while text input (and a composition) is active.
@@ -346,7 +348,7 @@ extern DECLSPEC SDL_bool SDLCALL SDL_IsScreenKeyboardShown(SDL_Window *window);
 #ifdef __cplusplus
 }
 #endif
-#include "close_code.h"
+#include <SDL2/close_code.h>
 
 #endif /* SDL_keyboard_h_ */
 

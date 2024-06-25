@@ -1,6 +1,6 @@
 /*
   Simple DirectMedia Layer
-  Copyright (C) 1997-2023 Sam Lantinga <slouken@libsdl.org>
+  Copyright (C) 1997-2024 Sam Lantinga <slouken@libsdl.org>
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -59,10 +59,10 @@
 #ifndef SDL_atomic_h_
 #define SDL_atomic_h_
 
-#include "SDL_stdinc.h"
-#include "SDL_platform.h"
+#include <SDL2/SDL_stdinc.h>
+#include <SDL2/SDL_platform.h>
 
-#include "begin_code.h"
+#include <SDL2/begin_code.h>
 
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
@@ -209,7 +209,7 @@ typedef void (*SDL_KernelMemoryBarrierFunc)();
 #if defined(__ARM_ARCH_7__) || defined(__ARM_ARCH_7A__) || defined(__ARM_ARCH_7EM__) || defined(__ARM_ARCH_7R__) || defined(__ARM_ARCH_7M__) || defined(__ARM_ARCH_7S__) || defined(__ARM_ARCH_8A__)
 #define SDL_MemoryBarrierRelease()   __asm__ __volatile__ ("dmb ish" : : : "memory")
 #define SDL_MemoryBarrierAcquire()   __asm__ __volatile__ ("dmb ish" : : : "memory")
-#elif defined(__ARM_ARCH_6__) || defined(__ARM_ARCH_6J__) || defined(__ARM_ARCH_6K__) || defined(__ARM_ARCH_6T2__) || defined(__ARM_ARCH_6Z__) || defined(__ARM_ARCH_6ZK__) || defined(__ARM_ARCH_5TE__)
+#elif defined(__ARM_ARCH_6__) || defined(__ARM_ARCH_6J__) || defined(__ARM_ARCH_6K__) || defined(__ARM_ARCH_6T2__) || defined(__ARM_ARCH_6Z__) || defined(__ARM_ARCH_6ZK__)
 #ifdef __thumb__
 /* The mcr instruction isn't available in thumb mode, use real functions */
 #define SDL_MEMORY_BARRIER_USES_FUNCTION
@@ -407,7 +407,7 @@ extern DECLSPEC void* SDLCALL SDL_AtomicGetPtr(void **a);
 }
 #endif
 
-#include "close_code.h"
+#include <SDL2/close_code.h>
 
 #endif /* SDL_atomic_h_ */
 

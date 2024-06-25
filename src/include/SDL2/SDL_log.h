@@ -1,6 +1,6 @@
 /*
   Simple DirectMedia Layer
-  Copyright (C) 1997-2023 Sam Lantinga <slouken@libsdl.org>
+  Copyright (C) 1997-2024 Sam Lantinga <slouken@libsdl.org>
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -37,9 +37,9 @@
 #ifndef SDL_log_h_
 #define SDL_log_h_
 
-#include "SDL_stdinc.h"
+#include <SDL2/SDL_stdinc.h>
 
-#include "begin_code.h"
+#include <SDL2/begin_code.h>
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
 extern "C" {
@@ -59,7 +59,7 @@ extern "C" {
  *  By default the application category is enabled at the INFO level,
  *  the assert category is enabled at the WARN level, test is enabled
  *  at the VERBOSE level and all other categories are enabled at the
- *  CRITICAL level.
+ *  ERROR level.
  */
 typedef enum
 {
@@ -352,7 +352,7 @@ extern DECLSPEC void SDLCALL SDL_LogMessage(int category,
  */
 extern DECLSPEC void SDLCALL SDL_LogMessageV(int category,
                                              SDL_LogPriority priority,
-                                             const char *fmt, va_list ap);
+                                             SDL_PRINTF_FORMAT_STRING const char *fmt, va_list ap) SDL_PRINTF_VARARG_FUNCV(3);
 
 /**
  * The prototype for the log output callback function.
@@ -397,7 +397,7 @@ extern DECLSPEC void SDLCALL SDL_LogSetOutputFunction(SDL_LogOutputFunction call
 #ifdef __cplusplus
 }
 #endif
-#include "close_code.h"
+#include <SDL2/close_code.h>
 
 #endif /* SDL_log_h_ */
 

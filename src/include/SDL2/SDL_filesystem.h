@@ -1,6 +1,6 @@
 /*
   Simple DirectMedia Layer
-  Copyright (C) 1997-2023 Sam Lantinga <slouken@libsdl.org>
+  Copyright (C) 1997-2024 Sam Lantinga <slouken@libsdl.org>
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -28,9 +28,9 @@
 #ifndef SDL_filesystem_h_
 #define SDL_filesystem_h_
 
-#include "SDL_stdinc.h"
+#include <SDL2/SDL_stdinc.h>
 
-#include "begin_code.h"
+#include <SDL2/begin_code.h>
 
 /* Set up for C function definitions, even when using C++ */
 #ifdef __cplusplus
@@ -64,7 +64,7 @@ extern "C" {
  * directory of the application as it is uncommon to store resources outside
  * the executable. As such it is not a writable directory.
  *
- * The returned path is guaranteed to end with a path separator ('\' on
+ * The returned path is guaranteed to end with a path separator ('\\' on
  * Windows, '/' on most other platforms).
  *
  * The pointer returned is owned by the caller. Please call SDL_free() on the
@@ -120,7 +120,7 @@ extern DECLSPEC char *SDLCALL SDL_GetBasePath(void);
  * - ...only use letters, numbers, and spaces. Avoid punctuation like "Game
  *   Name 2: Bad Guy's Revenge!" ... "Game Name 2" is sufficient.
  *
- * The returned path is guaranteed to end with a path separator ('\' on
+ * The returned path is guaranteed to end with a path separator ('\\' on
  * Windows, '/' on most other platforms).
  *
  * The pointer returned is owned by the caller. Please call SDL_free() on the
@@ -142,7 +142,7 @@ extern DECLSPEC char *SDLCALL SDL_GetPrefPath(const char *org, const char *app);
 #ifdef __cplusplus
 }
 #endif
-#include "close_code.h"
+#include <SDL2/close_code.h>
 
 #endif /* SDL_filesystem_h_ */
 
