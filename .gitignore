@@ -1,3 +1,4 @@
 .vscode
-*.tsx
-*.json
+main
+main.exe
+main.o

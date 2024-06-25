@@ -1,0 +1,649 @@
+{
+    "images": {
+        "characters": [
+            {
+                "name": "Player",
+                "w": 32,
+                "h": 32,
+                "sprites": [
+                    {
+                        "name": "Idle",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 1,
+                        "end": 3,
+                        "rate": 3,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunH",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 6,
+                        "end": 9,
+                        "rate": 4,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunVUp",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 11,
+                        "end": 14,
+                        "rate": 4,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunVDown",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 16,
+                        "end": 19,
+                        "rate": 4,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "AttackH",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 21,
+                        "end": 24,
+                        "rate": 8,
+                        "repeat": 1
+                    },
+                    {
+                        "name": "AttackVDown",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 26,
+                        "end": 29,
+                        "rate": 8,
+                        "repeat": 1
+                    },
+                    {
+                        "name": "AttackVUp",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 31,
+                        "end": 34,
+                        "rate": 8,
+                        "repeat": 1
+                    },
+                    {
+                        "name": "Hurt",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 36,
+                        "end": 36,
+                        "rate": 4,
+                        "repeat": 1
+                    },
+                    {
+                        "name": "Death",
+                        "path": "assets/images/dwarf x1.png",
+                        "width": 160,
+                        "height": 288,
+                        "start": 41,
+                        "end": 44,
+                        "rate": 4,
+                        "repeat": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bird",
+                "w": 32,
+                "h": 32,
+                "sprites": [
+                    {
+                        "name": "IdleD",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 1,
+                        "end": 1,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleR",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 2,
+                        "end": 2,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleU",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 3,
+                        "end": 3,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleL",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 4,
+                        "end": 4,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunD",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 5,
+                        "end": 12,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunL",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 13,
+                        "end": 20,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunR",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 21,
+                        "end": 28,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunU",
+                        "path": "assets/images/BIRDSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 29,
+                        "end": 36,
+                        "rate": 8,
+                        "repeat": -1
+                    }
+                ]
+            },   
+            {
+                "name": "Fox",
+                "w": 32,
+                "h": 32,
+                "sprites": [
+                    {
+                        "name": "IdleD",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 1,
+                        "end": 1,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleR",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 2,
+                        "end": 2,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleU",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 3,
+                        "end": 3,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleL",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 4,
+                        "end": 4,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunD",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 5,
+                        "end": 12,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunL",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 13,
+                        "end": 20,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunR",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 21,
+                        "end": 28,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunU",
+                        "path": "assets/images/FOXSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 29,
+                        "end": 36,
+                        "rate": 8,
+                        "repeat": -1
+                    }
+                ]
+            },
+            {
+                "name": "Racoon",
+                "w": 32,
+                "h": 32,
+                "sprites": [
+                    {
+                        "name": "IdleD",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 1,
+                        "end": 1,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleR",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 2,
+                        "end": 2,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleU",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 3,
+                        "end": 3,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleL",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 4,
+                        "end": 4,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunD",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 5,
+                        "end": 12,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunL",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 13,
+                        "end": 20,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunR",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 21,
+                        "end": 28,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunU",
+                        "path": "assets/images/RACOONSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 29,
+                        "end": 36,
+                        "rate": 8,
+                        "repeat": -1
+                    }
+                ]
+            },
+            {
+                "name": "Cat",
+                "w": 32,
+                "h": 32,
+                "sprites": [
+                    {
+                        "name": "IdleD",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 1,
+                        "end": 1,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleR",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 2,
+                        "end": 2,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleU",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 3,
+                        "end": 3,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "IdleL",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 4,
+                        "end": 4,
+                        "rate": 1,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunD",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 5,
+                        "end": 12,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunL",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 13,
+                        "end": 20,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunR",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 21,
+                        "end": 28,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "RunU",
+                        "path": "assets/images/CATSPRITESHEET.png",
+                        "width": 128,
+                        "height": 288,
+                        "start": 29,
+                        "end": 36,
+                        "rate": 8,
+                        "repeat": -1
+                    }
+                ]
+            }
+        ],
+        "objects": [
+            {
+                "name": "Coin",
+                "w": 16,
+                "h": 16,
+                "sprites": [
+                    {
+                        "name": "Idle",
+                        "path": "assets/images/Coin.png",
+                        "width": 64,
+                        "height": 16,
+                        "start": 1,
+                        "end": 4,
+                        "rate": 8,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "Collect",
+                        "path": "assets/images/CoinEffect.png",
+                        "width": 48,
+                        "height": 16,
+                        "start": 1,
+                        "end": 3,
+                        "rate": 6,
+                        "repeat": 1
+                    }
+                ]
+            },
+            {
+                "name": "Diamond",
+                "w": 24,
+                "h": 24,
+                "sprites": [
+                    {
+                        "name": "Idle",
+                        "path": "assets/images/Diamond.png",
+                        "width": 96,
+                        "height": 24,
+                        "start": 1,
+                        "end": 4,
+                        "rate": 6,
+                        "repeat": -1
+                    },
+                    {
+                        "name": "Collect",
+                        "path": "assets/images/DiamondEffect.png",
+                        "width": 96,
+                        "height": 24,
+                        "start": 1,
+                        "end": 4,
+                        "rate": 4,
+                        "repeat": -1
+                    }
+                ]
+            }
+        ],
+        "misc": [
+            {
+                "name": "Target",
+                "w": 32,
+                "h": 32,
+                "sprites": [
+                    {
+                        "name": "Idle",
+                        "path": "assets/images/UI/Target.png",
+                        "width":256,
+                        "height": 32,
+                        "start": 1,
+                        "end": 8,
+                        "rate": 16,
+                        "repeat": -1
+                    }
+                ]
+            }
+        ]
+    },
+    "fonts": [
+        {
+            "name": "Monogram",
+            "path": "assets/fonts/monogram.ttf",
+            "size": 72
+        },
+        {
+            "name": "Monogram Extended",
+            "path": "assets/fonts/monogram-extended.ttf",
+            "size": 72
+        },
+        {
+            "name": "Monogram Extended Italic",
+            "path": "assets/fonts/monogram-extended-italic.ttf",
+            "size": 72
+        }
+    ],
+    "music": {
+        "bgm": [
+            {
+                "name": "bgm.clark",
+                "path": "assets/sounds/bgm/Clark.ogg.mp3"
+            },
+            {
+                "name": "bgm.haggstrom",
+                "path": "assets/sounds/bgm/Haggstrom.ogg.mp3"
+            },
+            {
+                "name": "bgm.minecraft",
+                "path": "assets/sounds/bgm/Minecraft.ogg.mp3"
+            },
+            {
+                "name": "bgm.subwoofer_lullaby",
+                "path": "assets/sounds/bgm/Subwooferlullaby.ogg.mp3"
+            },
+            {
+                "name": "bgm.sweden",
+                "path": "assets/sounds/bgm/Sweden.ogg.mp3"
+            },
+            {
+                "name": "bgm.wet_hands",
+                "path": "assets/sounds/bgm/Wethands.ogg.mp3"
+            }
+        ]
+    },
+    "sounds": {
+        "characters": [
+            {
+                "name": "Player",
+                "sounds": [
+                    {
+                        "name": "player.attack",
+                        "path": "assets/sounds/sfx/Player/Strong_attack1.ogg.mp3"
+                    },
+                    {
+                        "name": "player.hurt",
+                        "path": "assets/sounds/sfx/Player/Player_hurt1.ogg.mp3"
+                    },
+                    {
+                        "name": "player.move1",
+                        "path": "assets/sounds/sfx/Player/Grass_hit1.ogg.mp3"
+                    },
+                    {
+                        "name": "player.move2",
+                        "path": "assets/sounds/sfx/Player/Grass_hit2.ogg.mp3"
+                    },
+                    {
+                        "name": "player.move3",
+                        "path": "assets/sounds/sfx/Player/Grass_hit3.ogg.mp3"
+                    },
+                    {
+                        "name": "player.move4",
+                        "path": "assets/sounds/sfx/Player/Grass_hit4.ogg.mp3"
+                    },
+                    {
+                        "name": "player.move5",
+                        "path": "assets/sounds/sfx/Player/Grass_hit5.ogg.mp3"
+                    },
+                    {
+                        "name": "player.move6",
+                        "path": "assets/sounds/sfx/Player/Grass_hit6.ogg.mp3"
+                    }
+                ]
+            }
+        ],
+        "effects": [
+            {
+                "name": "Coin",
+                "sounds": [
+                    {
+                        "name": "coin.collect",
+                        "path": "assets/sounds/sfx/Effect/Coin.ogg.mp3"
+                    }
+                ]
+            },
+            {
+                "name": "Diamond",
+                "sounds": [
+                    {
+                        "name": "diamond.collect",
+                        "path": "assets/sounds/sfx/Effect/Diamond.ogg.mp3"
+                    }
+                ]
+            },
+            {
+                "name": "Firework",
+                "sounds": [
+                    {
+                        "name": "firework.launch",
+                        "path": "assets/sounds/sfx/Effect/Firework_launch.ogg.mp3"
+                    },
+                    {
+                        "name": "firework.explode1",
+                        "path": "assets/sounds/sfx/Effect/Firework_large_blast_far.ogg.mp3"
+                    },
+                    {
+                        "name": "firework.explode2",
+                        "path": "assets/sounds/sfx/Effect/Firework_twinkle_far.ogg.mp3"
+                    }
+                ]
+            }
+        ]
+    }
+}
